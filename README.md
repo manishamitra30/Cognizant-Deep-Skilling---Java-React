@@ -1,90 +1,72 @@
-# Cognizant Deep Skilling – Java & React
+# 🚀 Cognizant Deep Skilling — Java Full Stack Engineering (Java FSE)
 
-This repository contains my solutions, practice exercises, and technical assessments completed as part of the **Cognizant SkillSpring Deep Skilling Program** for **Campus Recruitment**.
+![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=java)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-6DB33F?style=for-the-badge&logo=springboot)
+![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql)
+![JUnit5](https://img.shields.io/badge/Testing-JUnit5%20%26%20Mockito-25A162?style=for-the-badge&logo=junit5)
+![Git](https://img.shields.io/badge/Git-Version_Control-F05032?style=for-the-badge&logo=git)
 
-The program focuses on building strong foundations in **Java Full Stack Development** through hands-on assignments and practical implementations.
-
-## 📌 About
-
-This repository serves as a record of my progress throughout the Cognizant Deep Skilling curriculum. It includes the modules and technical assessments that I have completed so far.
-
-The solutions are implemented following the guidelines provided during the training and are intended for learning and practice purposes.
-
-## 🛠️ Technologies Covered
-
-* Java
-* Object-Oriented Programming (OOP)
-* Data Structures & Algorithms
-* Design Patterns
-* Collections Framework
-* Exception Handling
-* File I/O
-* Multithreading
-* JUnit & Mockito
-* Git & GitHub
-* SQL / PL-SQL
-* HTML, CSS & JavaScript
-* React (ongoing)
-
-## 📂 Repository Structure
-
-Each module or assessment is organized into its own folder for easier navigation.
-
-Example:
-
-```text
-Module-01/
-Module-02/
-Design-Patterns/
-DSA/
-Collections/
-JUnit-Mockito/
-Git/
-React/
-...
-```
-
-## ✅ Modules Completed
-
-* Core Java Fundamentals
-* Object-Oriented Programming
-* Arrays & Collections
-* Exception Handling
-* File Handling
-* Multithreading
-* Data Structures & Algorithms
-* Design Patterns
-* JUnit & Mockito
-* Git & GitHub
-* Technical Assessment Solutions
-
-> More modules will be added as I progress through the SkillSpring learning path.
-
-## 🎯 Purpose
-
-* Track my learning journey during the Cognizant Deep Skilling Program.
-* Maintain all completed assignments in one place.
-* Practice writing clean, maintainable Java code.
-* Showcase my technical progress throughout the campus recruitment process.
-
-## 🚀 Future Additions
-
-* Spring Framework
-* Spring Boot
-* REST APIs
-* Hibernate/JPA
-* Microservices
-* React Projects
-* Full Stack Applications
-
-## 📌 Note
-
-This repository contains my personal implementations of the exercises and assessments completed during the Cognizant SkillSpring training program. The solutions are shared for educational and portfolio purposes only.
+Welcome to the **Cognizant Deep Skilling Program** portfolio for the **Java Full Stack Engineer (Java FSE)** track. This repository contains solutions, weekly hands-on assignments, coding exercises, and projects developed during the training curriculum.
 
 ---
 
-**Author:** Manisha Mitra
+## 📌 Table of Contents
 
-**Program:** Cognizant SkillSpring – Deep Skilling (Java & React)
+- [Overview](#-overview)
+- [Program Architecture & Modules](#-program-architecture--modules)
+- [Repository Structure](#-repository-structure)
+- [Tech Stack](#-tech-stack)
+- [Getting Started](#-getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Backend Setup (Spring Boot)](#backend-setup-spring-boot)
+  - [Frontend Setup (React)](#frontend-setup-react)
+- [Testing](#-testing)
+- [Author](#-author)
 
-**Status:** 🚧 In Progress
+---
+
+## 📋 Overview
+
+The Cognizant Deep Skilling Program is an intensive full-stack training initiative aimed at mastering modern enterprise software development using **Java, Spring Boot, Microservices, REST APIs, SQL databases, and React.js**.
+
+### Key Objectives:
+- Implement Object-Oriented Design Principles (SOLID) & Creational/Behavioral Design Patterns.
+- Solve real-world scenarios using Data Structures & Algorithms.
+- Query and optimize relational databases using Advanced SQL and PL/SQL.
+- Build robust, scalable RESTful Web Services with Spring Boot and Spring Data JPA.
+- Perform unit testing using **JUnit 5** and **Mockito**.
+- Construct responsive, dynamic user interfaces with **React.js** (Hooks, Router, State Management).
+- Implement Git workflows and modern deployment practices.
+
+---
+
+## 🏛️ Program Architecture & Modules
+
+| Module / Construct | Key Topics & Competencies | Primary Stack |
+| :--- | :--- | :--- |
+| **1. Design Patterns & Principles** | Singleton, Factory, Strategy, Builder, Decorator, Observer Patterns, SOLID Principles | Java 17 |
+| **2. Data Structures & Algorithms** | Searching & Sorting, LinkedLists, Stacks/Queues, Trees, Recursion & Complexity Analysis | Java 17 |
+| **3. Advanced SQL & Database Management** | Complex Joins, Window Functions, Stored Procedures, Triggers, Views, Normalization | MySQL / PostgreSQL |
+| **4. Unit Testing & Mocking** | Test-Driven Development (TDD), Assertions, Mocking Dependencies | JUnit 5, Mockito |
+| **5. Spring Core & Spring Boot REST APIs** | Dependency Injection, IoC Container, REST Controller, Exception Handling, Validation | Spring Boot 3.x, Maven |
+| **6. Spring Data JPA & ORM** | Hibernate Mappings, Repositories, Custom JPQL Queries, Transaction Management | Spring Data JPA, MySQL |
+| **7. Frontend Development** | Components, JSX, Props & State, React Hooks (`useState`, `useEffect`), React Router, Axios | React.js, JavaScript (ES6+), HTML5, CSS3 |
+| **8. Microservices & Security (Optional)** | JWT Authentication, Spring Security, API Gateway, Service Discovery (Eureka) | Spring Cloud, JWT |
+| **9. Version Control & Practices** | Branching Strategies, Merge Conflict Resolution, Pull Requests, Commit Standards | Git & GitHub |
+
+---
+
+## 📂 Repository Structure
+
+```text
+Cognizant-Deep-Skilling---Java-React/
+│
+├── 01-Design-Patterns/             # Creational, Structural & Behavioral pattern implementations
+├── 02-DSA-Exercises/              # Algorithmic challenges and data structure implementations
+├── 03-Advanced-SQL/               # SQL scripts, DDL/DML, stored procedures, and triggers
+├── 04-JUnit-Mockito/              # Unit testing suites and mock service setups
+├── 05-Spring-Boot-REST-API/       # Spring Boot RESTful services and API endpoints
+├── 06-Spring-Data-JPA/            # ORM entities, relationships, and persistence layer
+├── 07-React-Frontend/             # Modern React SPA, components, and API integration
+└── README.md                      # Project Documentation
